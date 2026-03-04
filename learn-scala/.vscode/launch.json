@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "scala",
+      "request": "launch",
+      "name": "Main",
+      "mainClass": "Main",
+      "buildTarget": "file:/home/yusufgamal/projects/scala_projects/learn-scala/?id=learn-scala",
+      "args": [],
+      "jvmOptions": [],
+      "env": {}
+    }
+  ]
+}
