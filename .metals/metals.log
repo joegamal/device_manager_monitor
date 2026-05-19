@@ -56,3 +56,20 @@
 2026.03.04 04:28:09 INFO  shutting down Metals[0m
 2026.03.04 04:28:09 INFO  Shut down connection with build server.[0m
 2026.03.04 04:28:09 INFO  Exiting server[0m
+2026.03.04 04:46:04 INFO  Started: Metals version 1.6.6 in folders '/home/yusufgamal/projects/scala_projects' for client Visual Studio Code 1.109.5.[0m
+2026.03.04 04:46:04 INFO  Memory monitor started[0m
+2026.03.04 04:46:06 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.03.04 04:46:06 INFO  Attempting to connect to the build server...[0m
+2026.03.04 04:46:06 INFO  Found a Bloop server running[0m
+2026.03.04 04:46:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yusufgamal/projects/scala_projects/.metals/bsp.trace.json or /home/yusufgamal/.cache/metals/bsp.trace.json[0m
+2026.03.04 04:46:06 INFO  time: Connected to build server in 0.39s[0m
+2026.03.04 04:46:06 INFO  Connected to Build server: Bloop v2.0.19[0m
+2026.03.04 04:46:07 INFO  time: Imported build in 0.14s[0m
+2026.03.04 04:46:07 WARN  2.13.12 is no longer supported in the current Metals versions, using the last known supported version 1.4.2[0m
+2026.03.04 04:46:12 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2026.03.04 04:46:12 INFO  time: indexed workspace in 4.89s[0m
+2026.03.04 04:46:56 INFO  Shutting down server[0m
+2026.03.04 04:46:56 INFO  Memory monitor stopped[0m
+2026.03.04 04:46:56 INFO  shutting down Metals[0m
+2026.03.04 04:46:56 INFO  Shut down connection with build server.[0m
+2026.03.04 04:46:56 INFO  Exiting server[0m
