@@ -1,4 +1,6 @@
-﻿namespace NetSpeed;
+﻿using System.Diagnostics;
+
+namespace NetSpeed;
 
 class Program
 {
@@ -13,5 +15,18 @@ class Program
         //step one monitor the input to out device
         // this step will be divided into a components 
         //the first component is how many processes are there running 
+
+        //processes 
+
+        var processes = Process.GetProcesses();
+        while(true)
+        {
+            var changed = Process.GetProcesses();
+            if(changed.Count() != processes.Count())
+            {
+                Console.WriteLine($"There are: {changed.Count()} processes running");
+                processes = Process.GetProcesses();
+            }
+        }
     }
 }
